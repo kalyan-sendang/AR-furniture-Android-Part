@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background_color"
+    tools:context=".DetailsActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="364dp"
+                android:background="@color/white">
+<!--                <ImageView-->
+<!--                    android:id="@+id/iv_detailsPage"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:src="@drawable/bed_example"-->
+<!--                    android:scaleType="centerInside"-->
+<!--                    android:layout_gravity="center"-->
+<!--                     />-->
+                <com.denzcoskun.imageslider.ImageSlider
+                    android:id="@+id/image_slider"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:iss_auto_cycle="true"
+                    app:iss_period="2500"
+                    app:iss_delay="0"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/Secondary_blue_200" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginVertical="14dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:layout_marginStart="8dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tv_name_detailsPage"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif-monospace"
+                        android:textStyle="bold"
+                        android:text="IDANAS"
+                        android:textColor="@color/black"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/tv_category_detailsPage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:textSize="16sp"
+                        android:text="Chair"
+                        android:textStyle="bold"
+                        android:fontFamily="serif-monospace"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                   android:layout_marginStart="150dp">
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/lottieFavorite"
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:scaleType="centerCrop"
+                        app:lottie_rawRes="@raw/favorite" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <View
+                android:layout_width="250dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp"
+                android:background="#DDDDDD"/>
+            <TextView
+                android:id="@+id/tv_description_detailsPage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Hey This is dummy text for testing"
+                android:textAlignment="center"
+                android:textColor="#444444"
+                android:textSize="16sp"
+                android:fontFamily="serif-monospace"/>
+            <Button
+                android:id="@+id/btn_OpenUnity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginVertical="8dp"
+                android:layout_marginHorizontal="60dp"
+                android:backgroundTint="@color/Secondary_blue_300"
+                android:textSize="16sp"
+                android:text="Try in ar"
+                android:fontFamily="@font/montserrat"
+                android:textStyle="bold"
+
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
