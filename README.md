@@ -7,5 +7,6 @@ https://docs.google.com/uc?export=download&id=177Dof4JKvpYnrHk2ndyBZ5l9nel0LIfV
 
 # OUTPUT
 
-![1](https://github.com/kalyan-sendang/AR-furniture-Android-Part/assets/58691148/08428ed2-811d-4d72-8d0c-7fb3ded0b33b)
-![2](https://github.com/kalyan-sendang/AR-furniture-Android-Part/assets/58691148/61f61b76-60f9-4f8c-9253-707fadd38040)
+![1](https://github.com/kalyan-sendang/AR-furniture-Android-Part/assets/58691148/aa61bae6-067d-44c8-9f44-7e8a0b613f60)
+![2](https://github.com/kalyan-sendang/AR-furniture-Android-Part/assets/58691148/f3e37a8e-af08-4335-901d-98b06ea8a137)
+![4](https://github.com/kalyan-sendang/AR-furniture-Android-Part/assets/58691148/bcc5d524-4bb6-4c0b-960c-b5e3ad257637)
